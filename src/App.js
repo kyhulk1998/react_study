@@ -14,10 +14,10 @@ function YoutubeItem(props) {
     return ( 
         <div className="youtube-item">
             <div className="youtube-image">
-                <img src={props.image} alt="" />
+                <img src={props.image} alt="Youtube Image" />
             </div>
             <div className="youtube-footer">
-                <img src={props.avatar} alt="" className="youtube-avatar" />
+                <img src={props.avatar} alt="Youtube Avatar" className="youtube-avatar" />
                 <div className="youtube-info">
                     <h2 className="youtube-title">{props.title || "This is title"}</h2>
                     <p className="youtube-author">{props.author || "This is author"}</p>
